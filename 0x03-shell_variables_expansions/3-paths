@@ -1,2 +1,2 @@
 #!/bin/bash
-co_D=$(find . -type d -mindepth $PATH)
+echo $PATH | tr -s ":" "\n" | wc -l
